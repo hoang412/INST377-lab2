@@ -1,0 +1,52 @@
+body {
+    background-color: #e5e5e5;
+}
+
+.info {
+    background-color: #d6ccc2;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+label {
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+/* Style for the container */
+.button-container {
+    text-align: center;
+    /* Center the button */
+    margin-top: 20px;
+    /* Add some margin at the top for spacing */
+}
+
+/* Style for the button */
+.submit_button {
+    background-color: #fca311;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+/* Style for the button on hover */
+.submit_button:hover {
+    background-color: #45a049;
+    /* Darker green color on hover */
+}
